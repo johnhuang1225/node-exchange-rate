@@ -1,0 +1,28 @@
+
+.rate {
+    font-size:25px;
+}
+
+.VIP0 {
+    background-color:mediumpurple;
+}
+
+.VIP1 {
+    background-color:lightseagreen;
+}
+
+.VIP2 {
+    background-color:lightblue;
+}
+
+.VIPS0 {
+    background-color:orangered;
+}
+
+.VIPS1 {
+    background-color:lightcoral;
+}
+
+.VIPS2 {
+    background-color:#FFFF00;
+}
