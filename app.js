@@ -4,7 +4,7 @@ var hbs = require('express-handlebars');
 var request = require("request");
 var cheerio = require("cheerio");
 
-var port = process.env.POST || 4000;
+var port = process.env.PORT || 4000;
 var app = express();
 app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'layout', layoutsDir: __dirname + '/views/layouts/'}));
 app.set('views', path.join(__dirname, 'views'));
